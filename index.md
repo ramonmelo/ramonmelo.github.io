@@ -2,14 +2,10 @@
 title: Ramon Melo
 description: Teste
 show_downloads: true
-layout: default
+layout: base
 ---
 
 # Ramon Melo
-
-> This site is under construction
-
-If you want to see more about me, please take a look at:
 
 - <img src="img/github.png" height="15px"> [Github Profile](https://github.com/ramonmelo)
 - <img src="img/linkedin.png" height="15px"> [Linkedin](https://www.linkedin.com/in/ramonmelo/)

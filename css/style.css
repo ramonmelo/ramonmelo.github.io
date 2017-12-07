@@ -1,0 +1,40 @@
+/*
+* @Author: Ramon Melo
+* @Date:   2017-12-06
+* @Last Modified by:   Ramon Melo
+* @Last Modified time: 2017-12-07
+*/
+
+#mainmenu {
+    background-color: #f39c12;
+    width: 350px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+body {
+    background-color: #ecf0f1;
+    margin-left: 400px;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
