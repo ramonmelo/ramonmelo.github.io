@@ -1,5 +1,12 @@
 
-<div id="main-menu" class="container">
+<!-- <span id="toggle-menu" class="fui-list rounded-circle"></span> -->
+
+<button id="toggle-menu" class="btn btn-inverse" type="button" data-toggle="collapse" data-target="#main-menu">
+  <span class="fui-list"></span>
+</button>
+
+<div id="main-menu" class="collapse">
+
     <h3 class="title-menu">Ramon Melo</h3>
     <p class="title-menu">Just for a relaxing chat about technology</p>
 
@@ -7,22 +14,8 @@
 
     <div class="list-group">
         <a href="{% link index.html %}" class="list-group-item list-group-item-action">About</a>
-        <!-- <a href="{% link blog.html %}" class="list-group-item list-group-item-action">Blog</a> -->
+        <!-- <a href="{% link projects.html %}" class="list-group-item list-group-item-action">Projects</a> -->
+        <a href="{% link contact.html %}" class="list-group-item list-group-item-action">Contact</a>
     </div>
 
-  <!-- <div class="row">
-    <div class="col-sm-12">
-        <ul class="nav nav-pills flex-column">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fui-home"></span> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fui-user"></span> About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fui-bubble"></span> Contact</a>
-          </li>
-        </ul>
-    </div> -->
-  <!-- </div> -->
 </div>
